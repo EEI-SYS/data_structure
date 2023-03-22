@@ -11,10 +11,12 @@ int findArrayMax(int score[], int n)
 	return tmp;
 }
 
-void main()
+int main()  //정수형 변환하겠다         ()에 뭐가 없다 : 입력이 없다!
 {
-	int score[5] = { 12,123,12,54,1 };
-	int out;
+	int score[5] = { 12,123,12,54,1 }; //[숫자] =배열5개 만들겠다  {배열 숫자들 }
+	int out;			
 	out = findArrayMax(score, 5);
 	printf("result = %d", out);
+
+	return 0;
 }
